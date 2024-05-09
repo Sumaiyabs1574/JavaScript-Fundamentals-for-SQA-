@@ -375,6 +375,57 @@ if (mark.bmi > john.bmi) {
 }
 
 
+// for Loop
+
+var campus = "BAUET";
+for (var i = 0; i < 5; i++) {
+    console.log(campus);
+}
+
+//loop in arry
+let numbers = [1, 2, 3, 4, 5];
+
+
+for (let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
+
+
+//while loop
+
+
+let counter = 0;
+while (counter < 5) {
+    console.log("Counter is:", counter);
+    counter++; 
+}
+console.log("Loop ended.");
+
+
+//break and contineue 
+
+
+for (let i = 0; i < 10; i++) {
+  if (i === 5) {
+      break; 
+  }
+  console.log(i);
+}
+
+// continue
+
+for (let i = 0; i < 10; i++) {
+  if (i === 5) {
+      continue; 
+  }
+  console.log(i);
+}
+
+
+
+
+
+
 
 
 
